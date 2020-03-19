@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+
+    <settings>
+        <setting value="true" name="cacheEnabled" /> 				<!-- default : true -->
+        <setting value="true" name="lazyLoadingEnabled" />   		<!-- default : true -->
+        <setting value="true" name="aggressiveLazyLoading" />   	<!-- default : true -->
+        <setting value="true" name="multipleResultSetsEnabled" /> 	<!-- default : true -->
+        <setting value="true" name="useColumnLabel" />   			<!-- default : true -->
+        <setting value="false" name="useGeneratedKeys" /> 			<!-- default : false -->
+        <setting value="PARTIAL" name="autoMappingBehavior" />    	<!-- default : PARTIAL -->
+        <setting value="25000" name="defaultStatementTimeout" />	<!-- default : none -->
+        <setting value="REUSE" name="defaultExecutorType" />      	<!-- default : SIMPLE  -->
+        <setting value="true" name="mapUnderscoreToCamelCase"  />   <!-- default : true -->
+        <setting value="NULL" name="jdbcTypeForNull" />
+    </settings>
+
+    <typeAliases>
+<!--         <typeAlias type="com.mts.hp.model.Sample" alias="Sample"/>
+        <typeAlias type="com.mts.hp.model.User" alias="idCheck"/> -->
+        <typeAlias type="com.mts.hp.model.User" alias="User"/>
+<!--         <typeAlias type="com.mts.hp.model.User" alias="ipList"/>
+        <typeAlias type="com.mts.hp.model.FileInfo" alias="FileInfo"/>
+        <typeAlias type="com.mts.hp.model.Msg" alias="Msg"/>
+        <typeAlias type="com.mts.hp.model.SendGrp" alias="SendGrp"/>
+        <typeAlias type="com.mts.hp.model.SendInfo" alias="SendInfo"/>
+        <typeAlias type="com.mts.hp.model.Stats" alias="Stats"/>
+        <typeAlias type="com.mts.hp.model.Mng" alias="grpList"/>
+        <typeAlias type="com.mts.hp.model.Mng" alias="phoneList"/>
+        <typeAlias type="com.mts.hp.model.Mng" alias="Mng"/>
+        <typeAlias type="com.mts.hp.model.Template" alias="templateList"/>
+        <typeAlias type="com.mts.hp.model.Template" alias="templateOne"/>
+        <typeAlias type="com.mts.hp.model.Notice" alias="Notice"/>
+        <typeAlias type="com.mts.hp.model.ScheduleData" alias="ScheduleData"/>
+        <typeAlias type="com.mts.hp.model.Template" alias="Template"/>
+        <typeAlias type="com.mts.hp.model.Callback" alias="Callback"/>
+        <typeAlias type="com.mts.hp.model.SenderKey" alias="SenderKey"/>
+        <typeAlias type="com.mts.hp.model.Company" alias="Company"/>
+        <typeAlias type="com.mts.hp.model.CompanyCntrt" alias="CompanyCntrt"/>
+        <typeAlias type="com.mts.hp.model.Point" alias="Point"/> -->
+        <!-- 
+        <typeAlias type="com.mts.msg.model.CompanyDept" alias="CompanyDept"/>
+         -->
+        <!-- <typeAlias type="com.mts.msg.model.Refusal" alias="refusalList"/>
+        <typeAlias type="com.mts.msg.model.Refusal" alias="refusalOne"/>  -->
+    </typeAliases>
+
+    <typeHandlers>
+    </typeHandlers>
+
+</configuration>

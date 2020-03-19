@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+org.eclipse.jdt.core.builder.resourceCopyExclusionFilter=
+org.eclipse.jdt.core.classpathVariable.JRE_LIB=D\:/dev/environment/java/openjdk-1.8.0.212-1/jre/lib/rt.jar
+org.eclipse.jdt.core.classpathVariable.JRE_SRC=D\:/dev/environment/java/openjdk-1.8.0.212-1/src.zip
+org.eclipse.jdt.core.classpathVariable.JRE_SRCROOT=
+org.eclipse.jdt.core.codeComplete.visibilityCheck=enabled
+org.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled

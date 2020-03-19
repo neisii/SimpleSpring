@@ -1,0 +1,41 @@
+1554344136891	Move folder
+1554344141840	Move folder
+1554344143881	Move file
+1554344150627	Move file
+1554344157692	Delete element
+1554354838746	Rename resource 'spring-mybatis.xml'
+1554354843900	Rename resource 'spring-config.xml'
+1554354846522	Rename resource 'servlet-config.xml'
+1554360810789	Delete elements
+1554360837701	Rename resource 'const.properties'
+1554360842049	Rename resource 'log4j.xml'
+1554360843864	Rename resource 'logback.xml'
+1554360875069	Delete element
+1554360891006	Rename resource 'web.xml'
+1554360946788	Rename resource 'pom.xml'
+1554360971122	Delete element
+1554361295139	Delete elements
+1554361297017	Delete element
+1554361321226	Delete element
+1554361337132	Delete elements
+1554361339806	Rename resource 'mybatis-config.xml'
+1554430775626	Move file
+1554430781975	Delete element
+1554430825454	Move file
+1554430827533	Delete element
+1554430916972	Rename package 'kr.co.mts.hp.common'
+1554430943677	Rename package 'kr.co.mts.hp.controller'
+1554430950328	Rename package 'kr.co.mts.hp.dao'
+1554430952954	Rename package 'kcom.mts.hp.dao'
+1554430958866	Rename package 'kr.co.mts.hp.interceptor'
+1554430963884	Rename package 'kr.co.mts.hp.model'
+1554430967804	Rename package 'kr.co.mts.hp.service'
+1554430972252	Rename package 'kr.co.mts.hp.dao.mapper'
+1554432350881	Rename resource 'index.jsp'
+1554439803305	Delete element
+1554439807345	Delete element
+1554439809177	Delete element
+1554439822494	Delete element
+1554439824082	Delete element
+1554439825089	Delete element
+1554439826888	Delete element

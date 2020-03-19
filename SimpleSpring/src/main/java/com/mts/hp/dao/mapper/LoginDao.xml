@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.mts.hp.dao.LoginDao">
+
+    <select id="selectUser" resultType="User">
+    	SELECT UID, USERID, USER_NAME, AUTHORITY
+    	 FROM MTS_HP_USER_BASE
+    	WHERE USERID = #{user_id} AND USERPASS = #{password}
+    	AND USE_YN = 'Y'
+    </select>
+    
+</mapper>

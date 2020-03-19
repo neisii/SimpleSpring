@@ -1,0 +1,78 @@
+#######################################################################
+# THIS WEBAPP IS COMMON VERSION
+# Version: 1.0
+# Last modified at 2017.01.03
+#######################################################################
+
+### ORACLE ###
+#jdbc.name=oracle
+#jdbc.driver=oracle.jdbc.driver.OracleDriver
+#jdbc.url=jdbc:oracle:thin:@192.168.10.35:1521:orcl
+#jdbc.username=ALLIMTALK
+#jdbc.password=ALLIMTALK
+
+### MSSQL ###
+#jdbc.name=mssql
+#jdbc.driver=com.microsoft.sqlserver.jdbc.SQLServerDriver
+#jdbc.url=jdbc:sqlserver://192.168.1.35:25000;databaseName=NEOMMS
+#jdbc.username=NEOMMS
+#jdbc.password=NEOMMS
+
+### MYSQL ###
+jdbc.name=mysql
+jdbc.driver=com.mysql.jdbc.Driver
+jdbc.url=jdbc:mysql://192.168.1.35:3306/mts
+jdbc.username=root
+jdbc.password=mtsco.co.kr
+
+### allim_talk template sample
+kakao.sample.path=E:/WorkSpace/KakaoMngProject/upload/
+kakao.template.path=C:/mts/upload/template/
+
+### KAKAO SERVER HOST URL
+kakao.api.server=https://dev-bzm-center.kakao.com
+
+# default key
+default.name=mts1234
+
+# PTN_ID
+# company.ptnid=2
+# \uac1c\ubc1c\uacc4 \ud658\uacbd\uc124\uc815(\ud1b5\ud569\ud14c\uc2a4\ud2b8/@\uc5e0\ud2f0\uc5d0\uc2a4\ucef4\ud37c\ub2c8)
+company.ptnid=709
+
+# excel, txt file path for sending message
+#send.file.path=D:/mts/upload/send
+#send.file.path=C:/mts/upload/send
+#send.file.path=D:/2017_workspace/git_mts_asp/upload/send
+send.file.path=C:/mts/upload/send
+
+# phonebook file path
+#phonebook.file.path=D:/mts/upload/phonebook
+#phonebook.file.path=c:/mts/upload/phonebook
+#phonebook.file.path=D:/2017_workspace/git_mts_asp/upload/phonebook
+phonebook.file.path=c:/mts/upload/phonebook
+
+# notice attachment file path
+#contents.path=D:/mts/upload/contents
+contents.path=C:/mts/upload/contents
+
+# image path for preview
+#web.img.path=E:/WorkSpace/MTSProject/mtsmsg/src/main/webapp/upload/content
+#web.img.path=D:/2017_workspace/git_mts_asp/mtsmsg/src/main/webapp/upload/content
+web.img.path=C:/mts/upload/img
+
+# agent image path
+#agent.img.path=D:/2017_workspace/git_mts_asp/upload/img
+agent.img.path=C:/kms/agent_ftalk/content
+
+# kakao template api url
+# mts.template.url=test
+# \uac1c\ubc1c\uacc4 \ud658\uacbd\uc124\uc815(\ud1b5\ud569\ud14c\uc2a4\ud2b8/@\uc5e0\ud2f0\uc5d0\uc2a4\ucef4\ud37c\ub2c8)
+mts.template.url=http://127.0.0.1:9090
+#mts.template.url=http://192.168.1.46:8890
+
+# monthly log table setting(Needed to follow agent setting)
+monthly.logyn=N
+
+# use of point concept
+#use.pointyn=N
